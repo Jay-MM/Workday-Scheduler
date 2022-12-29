@@ -1,4 +1,4 @@
-
+// global variables
 const saveBtn = $(".saveBtn");
 // current Date is displayed at the top of the calendar
 let currentDay = document.getElementById('currentDay');
@@ -33,6 +33,18 @@ saveBtn.on('click', function(e) {
     localStorage.setItem(hour, description)
 })
 
+// events persist even if page gets refreshed
+function saveSchedule(){
+    $('.hour').each(function(){
+        let currentTime = $(this).text();
+        let currentDescription = localStorage.getItem(currentTime)
+
+        if(currentDescription != null) {
+            $(this).siblings('.description').val(currentDescription)
+        }
+    })
+}
 // function calls
 
 colorCode();
+saveSchedule();
