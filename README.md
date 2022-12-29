@@ -28,8 +28,9 @@ A simple application that features a daily workday schedule that allows the user
 
 ## Screenshot
 
-![workday-scheduler-ss](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/gemii/Desktop/projects/super-disco/Develop/workday%20scheduler.png?version%3D1672355588699)
+![workday-scheduler-ss](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/gemii/Desktop/projects/super-disco/workday%20scheduler.png?version%3D1672356575635)
 
 ## Links
 
  - [Github](https://github.com/Jay-MM/Workday-Scheduler.git)
+ - [Deployed Site](https://jay-mm.github.io/Workday-Scheduler/)
